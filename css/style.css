@@ -5,6 +5,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition:all 0.5s ;
+    font-family: sans-serif;
+
 }
 
 body{
@@ -91,7 +94,6 @@ text-align: left;
 }
 
 #navbar {
-  font-family: Nunito;		
   position: sticky;
   top: 0px;
   z-index: 999;
@@ -140,18 +142,20 @@ text-align: left;
 	height: 30px;
   background-color: #333;
 	width: 250px;
+  padding-left: 25px;
+
 }
 
 #navbar ul li .submenu.one_col li a {
+  display: flex;
+  justify-content: space-between;
 	text-align: left;
-	text-indent: 27px;
 	font-weight: normal;
 	font-size: 14px;
 	height: 20px;
 	white-space: normal;
-	padding-left: 25px;
 	line-height: 20px;
-	color: #999;
+	color: #bebebe;
   transition: all 0.7s;
 }
 
@@ -200,9 +204,9 @@ color:#000
 #navbar ul li .submenu.four_col {
 	display: none;
 	position: absolute;
-	right: 0px;
-	top: 71.1px;
-	width: 100%;
+	left: 3%;
+	top: 70px;
+	width: 94%;
 	min-height: 100px;
 	background: #333;
 	padding-bottom: 0;
@@ -210,37 +214,36 @@ color:#000
 }
 
 #navbar ul li .submenu.four_col li {
-	float: left;
   width: 21%;
-	margin-right: 2%;
 	margin-left: 2%;
   border-right: 1px gray solid;
+  padding: 15px ;
+  padding-left: 0;
 }
 
 #navbar ul li .submenu.four_col li:nth-of-type(4n){
 border: none;
 }
 
+#navbar ul li .submenu.four_col li:nth-of-type(25),
+#navbar ul li .submenu.four_col li:nth-of-type(26),
+#navbar ul li .submenu.four_col li:nth-of-type(27){
+  padding-bottom: 45px;
+  }
+
 #navbar  ul li .submenu.four_col li a {
-	color: #999;
+	color: #bebebe;
 	text-align: left;
 	white-space: normal;
 	line-height: 20px;
 	margin: 0px;
 	font-size: 14px;
   padding-left: 0;
+  font-weight: normal;
 }
 
 #navbar ul li .submenu.four_col li:hover a {
 	color: #fff
-}
-
-#navbar ul ul li .submenu.four_col .title {
-	font-size: large;
-	margin: 0;
-  padding:0;
-	font-weight: bold;
-	text-align: center;
 }
 
 #navbar ul li:hover .submenu.one_col,
@@ -419,6 +422,7 @@ background-color: #333;
 .image-container{
   position: relative;
   overflow: hidden;
+  transition: all .3s;
 }
 
 .heart{
@@ -433,7 +437,7 @@ background-color: #333;
   color: #333;
   box-shadow: #BBB 0 0 2px, #888 0 5px 5px -2px;
   overflow:visible ;
-  z-index: 2;
+  z-index: 3;
 }
 
 .inheart{
@@ -475,17 +479,12 @@ background-color: #333;
   left: 0;
   width: 100%;
   height: 100%;
-  /* z-index: 1; */
-  transition: all .3s;
-  /* display: none; */
+  z-index: 2;
 }
 
-.image-container:hover > .overlay{
+.image-container:hover > .overly{
   transition: all .3s;
-  background-color:rgba(0, 0, 0, 6);
-  display: block;
-  opacity:60;
-  z-index: 10;
+  background-color:rgba(0, 0, 0, 0.6);
   
 }
 
@@ -494,25 +493,10 @@ background-color: #333;
   transition:all 0.3s ;
 }
 
-/* =============================================================
-=============================================================
-=============================================================
-=============================================================
-=============================================================
-============================================================= */
 
-/* .img-hov:hover {
-  transform: scale(1.1);
-  opacity: 1;
-  transition:all 0.3s ;
-} */
 
-/* =============================================================
-=============================================================
-=============================================================
-=============================================================
-=============================================================
-============================================================= */
+
+
 
 #sec-1 .article-container {
   display: flex;
@@ -649,7 +633,6 @@ padding-left: 10px;
 }
 
 .part2 .left{
-  overflow: hidden;
   width: 65%;
 }
 
@@ -677,7 +660,9 @@ position: relative;
   border-radius: 100%;
   font-size: large;
   color: #333;
-  box-shadow: 0px 0px 25px rgba(0,0,0,0.15)
+  box-shadow: 0px 0px 25px rgba(0,0,0,0.15);
+  z-index: 3;
+  
 }
 
 .sec3-arti h2 ,
@@ -1082,6 +1067,7 @@ justify-content: space-between;
   width: 100%;
   background-color: white;
   padding-top:10px;
+  height: 80px;
 }
 
 .bot-flex{
@@ -1094,7 +1080,7 @@ justify-content: space-between;
 
 .bot-flex img{
   width: 5%;
-  height: 5%;
+  height: 50px;
   border-radius: 7px;
   cursor: pointer;
 }
@@ -1112,7 +1098,7 @@ justify-content: space-between;
 
 .bot-flex .bo-right>img:hover{
 padding-bottom: 4px;
-transition: all .3s;
+transition: all .5s;
 box-shadow: #BBB 0 0 2px, #888 0 5px 5px -2px;
 box-shadow: #BBB 0 2px 2px, #888 0 5px 5px 2px;
 }
