@@ -1,0 +1,267 @@
+/* @media screen and (max-width:768px) */
+#navbar{
+display: none;
+}
+.bottom-sticky{
+display: none;
+}
+
+.empty{
+display: none;
+}
+
+.flat-container{
+min-width: 480px;
+max-width: 768px;
+}
+.container {
+margin: auto;
+max-width: 480px;
+padding:1.7rem 2%;
+}
+
+.container2 {
+margin: auto;
+max-width: 480px;
+padding: 0;
+}
+
+.Flat_mega_menu{
+display: block;
+}
+
+.Flat_mega_menu {
+position: fixed;
+}
+
+.Flat_mega_menu > ul {
+height: auto;
+position:relative;
+}
+
+.Flat_mega_menu > ul > li {
+height: 40px;
+width: 100%;
+position:relative;
+}
+
+.Flat_mega_menu ul li a {
+line-height: 40px;
+}
+
+.Flat_mega_menu > ul > li:first-child{
+width: 100%;
+height: auto;
+}
+
+.Flat_mega_menu > ul > li:first-child > a{
+text-align:center;
+width:100%;
+}
+
+.Flat_mega_menu > ul > li:first-child > a{
+text-align:center;
+width:100%;
+}
+
+.Flat_mega_menu > ul > li > .submenu.one_col{
+position: absolute;
+z-index:999;
+top: 26px;
+width: 100%;
+display: none;
+}
+
+.Flat_mega_menu ul li .submenu.one_col li{
+position: relative;
+height:30px;
+width:100%;
+clear:both;
+}
+
+.Flat_mega_menu ul li .submenu.one_col li a{
+white-space: normal;
+width:auto;
+text-align: center;
+}
+
+.Flat_mega_menu ul li .submenu.one_col li .submenu.one_col {
+position: relative;
+z-index:999;
+padding:0px;
+margin:0px;
+display: none;
+border:none;
+float:right;
+width: 100%;
+}
+
+.Flat_mega_menu ul li .submenu.one_col li .fa.fa-angle-left {
+position: absolute;
+z-index:999;
+transform:rotate(270deg);
+}
+
+.Flat_mega_menu ul li .submenu.four_col {
+display: none;
+z-index:999;
+right: 0px;
+top: 26px;
+}
+
+.Flat_mega_menu ul li .submenu.four_col li a {
+width:auto;
+}
+
+.Flat_mega_menu ul li .submenu.four_col .title{
+margin-bottom: 0px;
+}
+
+.Flat_mega_menu .mobile_button{
+opacity:0;
+}
+
+.Flat_mega_menu .mobile_button,
+.Flat_mega_menu .fa.fa-bars {
+display: block;
+position: absolute;
+right: 0px;
+z-index: 999;
+height: 60px;
+width: 9%;
+cursor:pointer;
+min-width: 60px;
+}
+
+.Flat_mega_menu .fa.fa-bars:before{
+color: var(--primary-color);
+font-size: 40px; 
+top: 10px;
+position: relative;
+left: 15px;
+}
+
+.Flat_mega_menu > ul{
+height:60px;
+overflow:hidden;
+}
+
+.Flat_mega_menu .mobile_button:checked + ul{
+height:auto;
+overflow:visible;
+}
+
+.Flat_mega_menu > ul > li:first-child a,
+.Flat_mega_menu > ul > li:first-child:hover a{
+background: #fff;
+
+}
+
+.container,
+.container2 {
+max-width: 768px;
+padding: 1.7rem 3%;
+}
+
+.bg-section{
+top: 60px;
+height: 50vh;
+}
+
+.centered{
+line-height: 16px;
+}
+
+.centered h1 a{
+font-size: 16px;
+}
+
+.centered h1{
+padding-bottom: 16px;
+}
+
+.centered p{
+font-size: 12px;
+}
+
+.part2 .right{
+display: block;
+}
+
+.sec-gallery,
+#sec-2,
+.part3 .banner-1 {
+margin-top: 5rem;
+}
+
+.banner2-info h{
+font-size: 12px;
+}
+.banner2-info p{
+font-size: 10px;
+}
+
+.banner2-btn{
+display: block;
+}
+
+.banner2-btn .btn2 {
+padding: 5% 49%;
+}
+
+.banner2-btn #email {
+padding: 7% 3%;
+width: 130%;
+}
+
+.topfooter {
+flex-direction: column;
+}
+
+.fo-blog, .fo-category, .fo-follow {
+width: 100%;
+}
+.fo-blog {
+text-align: center;
+
+}
+
+.fo-category .fo-ul {
+justify-content: space-evenly;
+}
+
+
+.fo-follow i{
+cursor: pointer;
+color: #FFFFFF;
+padding: 0 5%;
+
+}
+
+.fo-social-i{
+justify-content: center;
+display: flex;
+
+}
+
+.bottomfooter .inbtmfo{
+display: flex;
+flex-direction: column-reverse;
+gap: .5rem;
+text-align: center;
+}
+
+.bottomfooter .inbtmfo ul{
+justify-content: center;
+}
+
+.inbtmfo > ul li {
+padding:0 .5rem;
+}
+
+.info {
+font-size: 14px;
+}
+
+
+

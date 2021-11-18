@@ -1,0 +1,250 @@
+/* @media screen and (max-width:480px) */
+#navbar{
+display: none;
+}
+.bottom-sticky{
+display: none;
+}
+
+.empty{
+display: none;
+}
+
+
+.container,
+.container2 {
+max-width: 480px;
+padding: 1.7rem 3%;
+}
+
+.bg-section{
+top: 60px;
+height: 100vh;
+}
+
+.centered{
+width: 90%;
+}
+.centered h1 a{
+font-size: 14px;
+}
+
+.centered p{
+padding-bottom: 8px;
+}
+
+.title > h1 {
+font-size: 18px;
+}
+
+#sec-1 .title p {
+font-size: 12px;
+}
+
+#sec-1 .article-container2 {
+display: block;
+}
+
+.inpost{
+text-align: center;
+font-size: small;
+padding: 0.4rem 0rem 0.4rem 1.2rem;
+}
+
+.sticky-post {
+width: 100px;
+height: 30px;
+}
+
+.subject > a {
+    font-size: 11px;
+}
+
+#sec-1 h3 {
+font-size: 13px;
+line-height: 1.2rem;
+}
+
+#sec-1 .subject > :nth-child(3) {
+font-size: 13px;
+}
+
+.subject {
+line-height: 1.1rem;
+}
+
+.sec-soc li > a {
+font-size: 14px;
+}
+
+.heart {
+font-size: small;
+width: 60px;
+height: 60px;
+}
+
+.inheart {
+padding: 1rem 0rem;
+}
+
+.btn {
+width: 100%;
+}
+
+.part1 {
+font-size: 11px;
+}
+
+.left h2 {
+font-size: 13px;
+line-height: 1.2rem;
+}
+#sec-4 h3,
+.sec-2-subject > h3 > a,
+.sec3-arti h2,
+.part2 .left h2 {
+font-size: 13px;
+}
+
+.avatar {
+padding: 20px;
+margin-right: 0rem;
+display: inline-block;
+}
+
+.heart2 {
+font-size: small;
+width: 60px;
+height: 60px;
+}
+
+.info {
+font-size: 12px;
+}
+
+.no-cur{
+    display: none;
+}
+
+.right .arti {
+    display: flex;
+    padding-right: 0px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec-2-subject > a {
+font-size: 11px;
+}
+
+.p2 {
+font-size: 11px;
+}
+
+.sec-2-subject {
+line-height: 1.2rem;
+}
+
+.right .arti .image-info {
+width: 100%;
+}
+
+.sec-2-subject {
+text-align: center;
+line-height: 1.2rem;
+}
+
+#sec-3 h1 {
+font-size: 18px;
+}
+
+.banner2-info h2 {
+padding-bottom: 10px;
+}
+
+.banner2-info p {
+
+font-size: 10px;
+
+}
+.banner2-info p {
+color: gray;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+.banner2-info {
+line-height: 1.2rem;
+padding: 14% 0%;
+}
+
+.banner2-btn #email {
+font-size: small;
+}
+
+.banner2-btn .btn2 {
+font-size: small;
+padding: 5% 38%;
+width: 130%;
+}
+
+#sec-4 .title p {
+margin-bottom: 4rem;
+font-size: 13px;
+}
+
+#sec-4 .article-container {
+display: flex;
+grid-template-areas: 'c1 c2 c3' 'c4 c5 c6';
+grid-gap: 0rem;
+background-color: transparent;
+flex-direction: column;
+}
+
+#sec-4 h3 {
+line-height: 1.2rem;
+}
+
+#sec-4 .subject > :nth-child(3) {
+padding-top: 0.8rem;
+font-size: 13px;
+}
+
+.subject {
+margin-left: 0rem;
+}
+
+.sec-gallery .gallery {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.sec-gallery .gallery > img {
+width: 100%;
+}
+
+.fo-ul ul li a {
+font-size: 10px;
+}
+
+.fo-blog, .fo-category, .fo-follow {
+line-height: 1.2rem;
+}
+
+.fo-category .fo-ul {
+justify-content: space-between;
+}
+
+.inbtmfo > ul {
+display: block;
+padding-bottom: 1rem;
+}
+
+.inbtmfo p, .inbtmfo ul li a {
+    font-size: 10px;
+}

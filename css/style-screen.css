@@ -1,0 +1,247 @@
+/* @media screen and (max-width: 950px) */
+
+.container,
+.container2 {
+max-width: 950px;
+padding: 1.7rem 3%;
+}
+
+.container2 {
+padding: 0;
+}
+
+#navbar{
+padding: 0.5rem 1.2rem;
+}
+
+#navbar ul li a {
+padding-right: 1rem;
+font-size: 12px;
+padding-bottom: 2rem;
+}
+
+.h-social a,
+.h-social i{
+color: grey;
+padding-right: 0.4rem;
+font-size: 12px;
+}
+
+.h-img img{
+scale: 0.5;
+}
+
+#navbar ul li .submenu.one_col {
+width: 200px;
+top: 63px;
+}
+
+#navbar ul li .submenu.one_col li{
+padding-left: 20px;
+width: 200px;
+height: 25px;
+line-height: 25px;
+}
+
+#navbar ul li .submenu.one_col li a {
+font-size: 12px;
+}
+
+#navbar ul li .submenu.one_col {
+top: 63px;
+width: 200px;
+}
+
+#navbar ul li .submenu.one_col li{
+position: relative;
+height: 25px;
+background-color: #333;
+width: 200px;
+padding-left: 20px;
+}
+
+#navbar ul li .submenu.one_col li a {
+font-size: 12px;
+}
+
+#navbar ul li .submenu.one_col li .submenu.one_col {
+width: 200px;
+font-size: 12px;
+}
+
+#navbar ul li .submenu.one_col li .submenu.one_col li a{
+font-size: 12px;
+}
+
+#navbar ul li .submenu.one_col li .submenu.one_col li{
+width: 200px;
+}
+
+#navbar ul li .submenu.four_col {
+top:55px;
+
+}
+
+#navbar ul li .submenu.four_col li {
+padding: 11px ;
+}
+
+#navbar ul li .submenu.four_col li:nth-of-type(25),
+#navbar ul li .submenu.four_col li:nth-of-type(26),
+#navbar ul li .submenu.four_col li:nth-of-type(27){
+padding-bottom: 30px;
+}
+
+.part2{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.part2 .left{
+width: 100%;
+padding-bottom: 3rem;
+}
+
+.part2 .right{
+width: 100%;
+display: flex;
+}
+
+.right-2,
+.right-1{
+width: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
+
+.sec3-arti{
+flex-direction: column;
+justify-content: flex-start;
+padding-bottom: 6rem;
+}
+
+.sec3-arti .sec3-info,
+.sec3-arti .s3-img{
+width: 100%;
+}
+
+.sec3-arti .sec3-gp{
+position: relative;
+width: 100%;
+}
+
+.sec3-arti .s3-img{
+height: 300px;
+}
+
+.sec3-info{
+text-align: center;
+}
+
+.banner-2 .inbanner2-info{
+flex-direction: column;
+justify-content: flex-start;
+}
+.banner2-info{
+padding: 3% 0%;
+line-height: 2.5rem;
+}
+
+.banner2-btn{
+padding: 3% 22% 3% 0%;
+}
+
+#sec-1 h3{
+font-size: medium;
+line-height: 1.8rem;
+}
+.sec-2-subject .lead,
+.lead{
+font-size: 10px;
+}
+
+#sec-1 .article-container {
+display: none;
+}
+
+#sec-1 .article-container2 {
+display: flex;
+gap: 1.7rem;
+}
+
+.one-half{
+display: flex;  
+flex-direction: column;
+}
+
+.card-2{
+padding-bottom: 3rem;
+}
+
+#sec-1 .title p{
+font-size: 15px;
+}
+
+.title>h1{
+font-size: 28px;
+}
+
+#sec-4 h3,
+.sec-2-subject>h3>a,
+.sec3-arti h2 ,
+.part2 .left h2{
+font-size: medium;
+}
+
+#sec-4 .article-container {
+grid-template-areas: 
+'c1 c2'
+'c3 c4'
+'c5 c6'
+;
+grid-gap: 1.7rem;
+}
+
+.subject{
+margin-top: 2.5rem;
+}
+
+.fo-blog h3, .fo-category h3, .fo-follow h3{
+font-size: medium;
+text-align: center;
+}
+
+.fo-blog, .fo-category, .fo-follow{
+font-size: 12px;
+}
+
+.fo-category .fo-ul{
+padding-right: 0rem;
+}
+
+.fo-ul ul li a{
+font-size: 12px;
+}
+.fo-follow {
+display: flex;
+flex-direction: column;
+}
+
+.fo-follow i{
+font-style: normal;
+align-self: center;
+padding-bottom: 0.8rem;
+padding-right: 0rem;
+}
+
+.inbtmfo p,
+.inbtmfo ul li a{
+font-size: 12px;
+}
+
+.bo-left>h3{
+font-size: medium;
+}
+
